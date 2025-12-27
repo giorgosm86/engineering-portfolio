@@ -22,3 +22,10 @@ This repository contains selected university projects in:
 
 
 Email: 
+### Implementation Notes
+- Controller implemented in discrete time (Ts = 0.01 s)
+- Actuator saturation included to model voltage limits
+- Load disturbance applied at t = 2 s
+
+### Engineering Insight
+The controller maintains stability and restores motor speed despite load disturbances and actuator constraints, demonstrating robustness and suitability for embedded implementation.
